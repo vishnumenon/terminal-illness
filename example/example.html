@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Terminal Illness Example</title>
+    <script type="text/javascript" src="../zepto.min.js"></script>
+    <script type="text/javascript" src="../terminal-illness.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $('#terminal').terminalIllness({prompt: "vishnu@localhost$ "})
+          $('#terminal2').terminalIllness({prompt: "$uppercaser$ ", callback: function(input) {
+               return input.toUpperCase()
+          }})    
+      })
+    </script>
+  </head>
+  <body>
+    <div id="terminal" style="width: 700px; height: 500px; margin: 50px">Welcome to the terminal!!</div>
+    <br />
+    <br />
+    <div id="terminal2" style="width: 100%; height: 400px;"> make whatever you type uppercase!</div>
+  </body>
+</html>
