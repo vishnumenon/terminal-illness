@@ -18,5 +18,7 @@ $('#terminal').terminalIllness({prompt: "myprompt$ ", callback: function(input){
   return input.toUpperCase()
 }})
 ```
+<br />
+_Note_: Feel free to put html with inline styles in the prompt or in the response; It will render fine.
 
 For a full example, see *example.html* in the *example* folder. 
