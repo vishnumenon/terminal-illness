@@ -8,13 +8,11 @@ Use
 
 1. Make a div for your terminal. Set a width and height. If you want any text to be displayed at the top of your terminal, write it in the div.
 <br />
-```
-<div id='terminal' style="width: 400pt; height: 400pt;">[Instructions for terminal use...]</div>
+```<div id='terminal' style="width: 400pt; height: 400pt;">[Instructions for terminal use...]</div>
 ```
 2. In your JS, call terminalIllness([options]) on your div. Possible options are a prompt (as a string, default is '>') and a function that gets executed on all input (the default just returns the input). Options are as an object.
 <br />
-```
-$('#terminal').terminalIllness({prompt: "myprompt$ ", callback: function(input){
+```$('#terminal').terminalIllness({prompt: "myprompt$ ", callback: function(input){
   return input.toUpperCase()
 }})
 ```
