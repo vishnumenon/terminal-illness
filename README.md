@@ -1,7 +1,7 @@
 terminal-illness
 ================
 
-Terminal Illness is a _tiny_ Zepto.js (If you haven't used it, Zepto is a great, lightweight framework with all the good parts of JQuery) plugin that makes any div into a customizable Terminal interface.
+Terminal Illness is a _tiny_ Zepto.js (If you haven't used it, Zepto is a great, lightweight framework with all the good parts of JQuery) plugin that makes any div into a customizable Terminal interface. **Now also with JQuery support. Use terminal-illness-jquery.js**
 
 Use
 ---
